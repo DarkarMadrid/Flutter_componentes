@@ -1,0 +1,6 @@
+Models es para construir cosillas
+Router => Rutas del proyecto
+Theme => Temas de colores y visuales del proyecto
+Widget => Para configurar algunos Widgets muy especificos
+En cada carpeta se va a crear un controlador osea Export
+Se inicia a partir de Models
