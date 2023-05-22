@@ -10,6 +10,18 @@ class AppRoutes {
         route: "listview1",
         icon: Icons.remove,
         name: "List View 1",
+        screen: ListView1Screen()),
+    MenuOption(
+        route: "listview2",
+        icon: Icons.remove,
+        name: "List View 2",
+        screen: ListView2Screen())
+  ];
+  static final menuOption2 = <MenuOption>[
+    MenuOption(
+        route: "listview2",
+        icon: Icons.remove,
+        name: "List View 2",
         screen: ListView1Screen())
   ];
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

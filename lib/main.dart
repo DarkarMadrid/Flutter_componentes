@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.InitialRoute,
       routes: AppRoutes.getAppRoutes(),
+      theme: AppTheme.lightTheme,
     );
   }
 }
