@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fluttercomponentes/models/models.dart';
 import 'package:fluttercomponentes/screen/screens.dart';
+import 'package:fluttercomponentes/screen/tabview_screen.dart';
+import 'package:fluttercomponentes/screen/button_screen.dart';
+import 'package:fluttercomponentes/screen/alertdialog_screen.dart';
+import 'package:fluttercomponentes/screen/card_screen.dart';
 
 class AppRoutes {
   static const InitialRoute = "home";
@@ -15,14 +19,37 @@ class AppRoutes {
         route: "listview2",
         icon: Icons.remove,
         name: "List View 2",
-        screen: ListView2Screen())
-  ];
-  static final menuOption2 = <MenuOption>[
+        screen: ListView2Screen()),
     MenuOption(
-        route: "listview2",
+        route: "tabview",
         icon: Icons.remove,
-        name: "List View 2",
-        screen: ListView1Screen())
+        name: "TabBar y TabView",
+        screen: const TabScreen()),
+    MenuOption(
+        route: "Buttonview",
+        icon: Icons.remove,
+        name: "Button",
+        screen: const ButtonScreen()),
+    MenuOption(
+        route: "Alertview",
+        icon: Icons.remove,
+        name: "Alert Dialog",
+        screen: const AlertDialogScreen()),
+    MenuOption(
+        route: "Cardview",
+        icon: Icons.remove,
+        name: "Card",
+        screen: const CardScreen()),
+    MenuOption(
+        route: "Gridview",
+        icon: Icons.remove,
+        name: "Grid",
+        screen: const GridScreen()),
+    MenuOption(
+        route: "Gridiconosview",
+        icon: Icons.remove,
+        name: "Grid Iconos",
+        screen: const GridIconsScreen()),
   ];
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
     //Creamos lista Map Para guardar las rutas actuales del proyecto
