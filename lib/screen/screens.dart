@@ -6,3 +6,7 @@ export 'package:fluttercomponentes/screen/alertdialog_screen.dart';
 export 'package:fluttercomponentes/screen/card_screen.dart';
 export 'package:fluttercomponentes/screen/grid_screen.dart';
 export 'package:fluttercomponentes/screen/grid_iconos_screen.dart';
+export 'package:fluttercomponentes/screen/linearprogress_screen.dart';
+export 'package:fluttercomponentes/screen/slider_screen.dart';
+export 'package:fluttercomponentes/screen/checkbox_screen.dart';
+export 'package:fluttercomponentes/screen/radiobutton_screen.dart';

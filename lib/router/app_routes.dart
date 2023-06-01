@@ -5,6 +5,8 @@ import 'package:fluttercomponentes/screen/tabview_screen.dart';
 import 'package:fluttercomponentes/screen/button_screen.dart';
 import 'package:fluttercomponentes/screen/alertdialog_screen.dart';
 import 'package:fluttercomponentes/screen/card_screen.dart';
+import 'package:fluttercomponentes/screen/linearprogress_screen.dart';
+import 'package:fluttercomponentes/screen/slider_screen.dart';
 
 class AppRoutes {
   static const InitialRoute = "home";
@@ -50,6 +52,26 @@ class AppRoutes {
         icon: Icons.remove,
         name: "Grid Iconos",
         screen: const GridIconsScreen()),
+    MenuOption(
+        route: "Linearprogressview",
+        icon: Icons.remove,
+        name: "Linear Progress",
+        screen: const LinearProgressScreen()),
+    MenuOption(
+        route: "Sliderview",
+        icon: Icons.remove,
+        name: "Slider",
+        screen: const SliderScreen()),
+    MenuOption(
+        route: "Chechboxview",
+        icon: Icons.remove,
+        name: "Check Box",
+        screen: const CheckBoxScreen()),
+    MenuOption(
+        route: "Radiobuttonview",
+        icon: Icons.remove,
+        name: "Radio Boton",
+        screen: const RadioButtonScreen()),
   ];
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
     //Creamos lista Map Para guardar las rutas actuales del proyecto
